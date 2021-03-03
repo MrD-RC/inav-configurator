@@ -1234,6 +1234,11 @@ var FC = {
                 name: "RC CHANNEL OVERRIDE",
                 hasOperand: [true, true],
                 output: "boolean"
+            },
+            40: {
+                name: "LOITER RADIUS OVERRIDE",
+                hasOperand: [true, false],
+                output: "boolean"
             }
         }
     },
@@ -1292,6 +1297,7 @@ var FC = {
                     31: "3D home distance [m]",
                     32: "CRSF LQ",
                     33: "CRSF SNR",
+                    34: "Loiter Radius [cm]"
                 }
             },
             3: {
